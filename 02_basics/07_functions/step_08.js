@@ -1,12 +1,13 @@
 // Запуск из корня репозитория
-// node 02_basics/06_functions/step_07.js
+// node 02_basics/07_functions/step_08.js
 // Потом введите строки из примера ввода и нажмите Ctrl+D (в Windows Ctrl+Z и Enter)
 
 /*
-Урок 2.6 "Функции", шаг 7
+Урок 2.7 "Функции", шаг 8
 
-Напишите функцию `double(n)`, которая возвращает число, умноженное на 2. Считайте число и выведите
-результат функции.
+Напишите функцию `initials(firstName, lastName)`, которая возвращает инициалы, например `И. П.` для
+имени Иван и фамилии Петров. Считайте имя и фамилию, каждое с новой строки, и выведите результат
+функции.
 
 Ввод и вывод. Входные данные читайте функцией `prompt()`. Каждый вызов возвращает следующую строку
 ввода так же, как `prompt()` в браузере возвращает то, что ввёл пользователь. Результат выводите
@@ -14,11 +15,12 @@
 
 Пример ввода:
 
-    5
+    Иван
+    Петров
 
 Пример вывода:
 
-    10
+    И. П.
 */
 
 // Скрытая часть кода на Stepik перед решением, её писать не нужно
@@ -28,9 +30,10 @@ function prompt() { return __line < __input.length ? __input[__line++] : null; }
 
 
 // Решение
-function double(n) {
-  return n * 2;
+function initials(firstName, lastName) {
+  return `${firstName[0]}. ${lastName[0]}.`;
 }
 
-const n = Number(prompt());
-console.log(double(n));
+const firstName = prompt();
+const lastName = prompt();
+console.log(initials(firstName, lastName));

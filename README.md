@@ -24,13 +24,13 @@
 Команды выполняются из корня репозитория. Например, так запускается первая задача.
 
 ```bash
-node 02_basics/01_intro_to_js/step_07.js
+node 02_basics/01_intro_to_js/step_08.js
 ```
 
 Если в задаче есть ввод, после запуска введите строки из примера ввода и нажмите `Ctrl+D` (в Windows `Ctrl+Z` и `Enter`). Ввод можно передать и сразу, одной командой.
 
 ```bash
-echo "Анна" | node 02_basics/01_intro_to_js/step_08.js
+echo "Анна" | node 02_basics/02_input_data/step_04.js
 ```
 
 ## Содержание
@@ -41,25 +41,25 @@ echo "Анна" | node 02_basics/01_intro_to_js/step_08.js
 
 | Урок | Шаг | Файл |
 |---|---|---|
-| 2.1 Знакомство с JavaScript | 7 | [`02_basics/01_intro_to_js/step_07.js`](02_basics/01_intro_to_js/step_07.js) |
 | 2.1 Знакомство с JavaScript | 8 | [`02_basics/01_intro_to_js/step_08.js`](02_basics/01_intro_to_js/step_08.js) |
-| 2.2 Переменные и типы данных | 7 | [`02_basics/02_variables_and_types/step_07.js`](02_basics/02_variables_and_types/step_07.js) |
-| 2.2 Переменные и типы данных | 8 | [`02_basics/02_variables_and_types/step_08.js`](02_basics/02_variables_and_types/step_08.js) |
-| 2.3 Операторы и преобразование типов | 9 | [`02_basics/03_operators_and_type_conversion/step_09.js`](02_basics/03_operators_and_type_conversion/step_09.js) |
-| 2.3 Операторы и преобразование типов | 10 | [`02_basics/03_operators_and_type_conversion/step_10.js`](02_basics/03_operators_and_type_conversion/step_10.js) |
-| 2.3 Операторы и преобразование типов | 11 | [`02_basics/03_operators_and_type_conversion/step_11.js`](02_basics/03_operators_and_type_conversion/step_11.js) |
-| 2.4 Условия | 8 | [`02_basics/04_conditions/step_08.js`](02_basics/04_conditions/step_08.js) |
-| 2.4 Условия | 9 | [`02_basics/04_conditions/step_09.js`](02_basics/04_conditions/step_09.js) |
-| 2.4 Условия | 10 | [`02_basics/04_conditions/step_10.js`](02_basics/04_conditions/step_10.js) |
-| 2.4 Условия | 11 | [`02_basics/04_conditions/step_11.js`](02_basics/04_conditions/step_11.js) |
-| 2.5 Строки и методы строк | 8 | [`02_basics/05_strings/step_08.js`](02_basics/05_strings/step_08.js) |
-| 2.5 Строки и методы строк | 9 | [`02_basics/05_strings/step_09.js`](02_basics/05_strings/step_09.js) |
-| 2.5 Строки и методы строк | 10 | [`02_basics/05_strings/step_10.js`](02_basics/05_strings/step_10.js) |
-| 2.5 Строки и методы строк | 11 | [`02_basics/05_strings/step_11.js`](02_basics/05_strings/step_11.js) |
-| 2.6 Функции | 7 | [`02_basics/06_functions/step_07.js`](02_basics/06_functions/step_07.js) |
-| 2.6 Функции | 8 | [`02_basics/06_functions/step_08.js`](02_basics/06_functions/step_08.js) |
-| 2.6 Функции | 9 | [`02_basics/06_functions/step_09.js`](02_basics/06_functions/step_09.js) |
-| 2.8 Итоговый проект | 1 | [`02_basics/08_final_project/step_01.js`](02_basics/08_final_project/step_01.js) |
+| 2.2 Ввод данных | 4 | [`02_basics/02_input_data/step_04.js`](02_basics/02_input_data/step_04.js) |
+| 2.3 Переменные и типы данных | 7 | [`02_basics/03_variables_and_types/step_07.js`](02_basics/03_variables_and_types/step_07.js) |
+| 2.3 Переменные и типы данных | 8 | [`02_basics/03_variables_and_types/step_08.js`](02_basics/03_variables_and_types/step_08.js) |
+| 2.4 Операторы и преобразование типов | 9 | [`02_basics/04_operators_and_type_conversion/step_09.js`](02_basics/04_operators_and_type_conversion/step_09.js) |
+| 2.4 Операторы и преобразование типов | 10 | [`02_basics/04_operators_and_type_conversion/step_10.js`](02_basics/04_operators_and_type_conversion/step_10.js) |
+| 2.4 Операторы и преобразование типов | 11 | [`02_basics/04_operators_and_type_conversion/step_11.js`](02_basics/04_operators_and_type_conversion/step_11.js) |
+| 2.5 Условия | 8 | [`02_basics/05_conditions/step_08.js`](02_basics/05_conditions/step_08.js) |
+| 2.5 Условия | 9 | [`02_basics/05_conditions/step_09.js`](02_basics/05_conditions/step_09.js) |
+| 2.5 Условия | 10 | [`02_basics/05_conditions/step_10.js`](02_basics/05_conditions/step_10.js) |
+| 2.5 Условия | 11 | [`02_basics/05_conditions/step_11.js`](02_basics/05_conditions/step_11.js) |
+| 2.6 Строки и методы строк | 8 | [`02_basics/06_strings/step_08.js`](02_basics/06_strings/step_08.js) |
+| 2.6 Строки и методы строк | 9 | [`02_basics/06_strings/step_09.js`](02_basics/06_strings/step_09.js) |
+| 2.6 Строки и методы строк | 10 | [`02_basics/06_strings/step_10.js`](02_basics/06_strings/step_10.js) |
+| 2.6 Строки и методы строк | 11 | [`02_basics/06_strings/step_11.js`](02_basics/06_strings/step_11.js) |
+| 2.7 Функции | 7 | [`02_basics/07_functions/step_07.js`](02_basics/07_functions/step_07.js) |
+| 2.7 Функции | 8 | [`02_basics/07_functions/step_08.js`](02_basics/07_functions/step_08.js) |
+| 2.7 Функции | 9 | [`02_basics/07_functions/step_09.js`](02_basics/07_functions/step_09.js) |
+| 2.9 Итоговый проект | 1 | [`02_basics/09_final_project/step_01.js`](02_basics/09_final_project/step_01.js) |
 
 ### 3. Массивы, объекты и циклы
 
